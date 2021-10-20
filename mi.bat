@@ -1,1 +1,3 @@
-mvn install:install-file -DgroupId=javax.portlet -DartifactId=portlet-bridge-api -Dversion=2.0.0 -Dfile=portlet-bridge-api-2.0.0.jar -Dpackaging=jar -DgeneratePom=true -DlocalRepositoryPath=.  -DcreateChecksum=true
+rem mvn install:install-file -DgroupId=javax.portlet -DartifactId=portlet-bridge-api -Dversion=2.0.0 -Dfile=portlet-bridge-api-2.0.0.jar -Dpackaging=jar -DgeneratePom=true -DlocalRepositoryPath=.  -DcreateChecksum=true
+
+mvn install:install-file -DgroupId=org.portletfaces -DartifactId=portletfaces-bridge -Dversion=2.0.1 -Dfile=portletfaces-bridge-2.0.1.jar -Dpackaging=jar -DgeneratePom=true -DlocalRepositoryPath=.  -DcreateChecksum=true
