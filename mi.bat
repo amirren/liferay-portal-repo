@@ -32,4 +32,6 @@ rem mvn install:install-file -DgroupId=pentaho-library -DartifactId=libsparkline
 
 rem mvn install:install-file -DgroupId=pentaho-library -DartifactId=libswing -Dversion=1.2.4 -Dfile=libswing-1.2.4.jar -Dpackaging=jar -DgeneratePom=true -DlocalRepositoryPath=. -DcreateChecksum=true
 
-mvn install:install-file -DgroupId=pentaho-library -DartifactId=libxml -Dversion=1.2.2 -Dfile=libxml-1.2.2.jar -Dpackaging=jar -DgeneratePom=true -DlocalRepositoryPath=. -DcreateChecksum=true
+rem mvn install:install-file -DgroupId=pentaho-library -DartifactId=libxml -Dversion=1.2.2 -Dfile=libxml-1.2.2.jar -Dpackaging=jar -DgeneratePom=true -DlocalRepositoryPath=. -DcreateChecksum=true
+
+mvn install:install-file -DgroupId=pentaho-reporting-engine -DartifactId=pentaho-reporting-engine-wizard-core -Dversion=3.8.3-GA -Dfile=%1 -Dpackaging=jar -DgeneratePom=true -DlocalRepositoryPath=. -DcreateChecksum=true
