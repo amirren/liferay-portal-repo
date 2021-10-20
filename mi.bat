@@ -34,4 +34,4 @@ rem mvn install:install-file -DgroupId=pentaho-library -DartifactId=libswing -Dv
 
 rem mvn install:install-file -DgroupId=pentaho-library -DartifactId=libxml -Dversion=1.2.2 -Dfile=libxml-1.2.2.jar -Dpackaging=jar -DgeneratePom=true -DlocalRepositoryPath=. -DcreateChecksum=true
 
-mvn install:install-file -DgroupId=barbecue -DartifactId=barbecue -Dversion=1.5-beta1 -Dfile=%1 -Dpackaging=jar -DgeneratePom=true -DlocalRepositoryPath=. -DcreateChecksum=true
+mvn install:install-file -DgroupId=javax.jms -DartifactId=jms -Dversion=1.1 -Dfile=%1 -Dpackaging=jar -DgeneratePom=true -DlocalRepositoryPath=. -DcreateChecksum=true
