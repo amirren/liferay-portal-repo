@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>pentaho-reporting-engine</groupId>
+  <artifactId>pentaho-reporting-engine-classic-extensions</artifactId>
+  <versioning>
+    <release>3.8.3-GA</release>
+    <versions>
+      <version>3.8.3-GA</version>
+    </versions>
+    <lastUpdated>20211020101458</lastUpdated>
+  </versioning>
+</metadata>
