@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>pentaho-library</groupId>
-  <artifactId>libcss</artifactId>
+  <artifactId>libformat</artifactId>
   <versioning>
-    <release>1.2.2</release>
+    <release>1.2.4</release>
     <versions>
-      <version>1.2.2</version>
+      <version>1.2.4</version>
     </versions>
-    <lastUpdated>20211020100408</lastUpdated>
+    <lastUpdated>20211020100428</lastUpdated>
   </versioning>
 </metadata>
